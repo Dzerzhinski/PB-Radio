@@ -1,0 +1,139 @@
+<?xml version="1.0" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+width="300" height="300" viewBox="0 0 2400 2400" >
+
+<defs>
+	<g id="sine" stroke="black" stroke-width="15" fill="none" >
+		<path d="M 0,300 Q 127.32395447351627,0 200,0" />
+		<path d="M 200,0 Q 272.67604552648373,0 400,300" />
+		<path d="M 400,300 Q 527.3239544735163,600 600,600" />
+		<path d="M 600,600 Q 672.6760455264837,600 800,300" />
+	</g>
+
+	<clipPath id="screenclip" >
+		<rect x="20" y="20" height="2360" rx="400" width="2360" />
+	</clipPath>
+
+</defs>
+
+<g style="clip-path: url(#screenclip)" >
+	<use xlink:href="#sine" x="-800" y="900.0" >
+		<animate
+			attributeName="x" 
+			from="-800" 
+			to="-1600" 
+			begin="0s" 
+			dur="0.5830472103004293s" 
+			repeatCount="indefinite" 
+		/>
+	</use>
+
+	<use xlink:href="#sine" x="0" y="900.0" >
+		<animate
+			attributeName="x" 
+			from="0" 
+			to="-800" 
+			begin="0s" 
+			dur="0.5830472103004293s" 
+			repeatCount="indefinite" 
+		/>
+	</use>
+
+	<use xlink:href="#sine" x="800" y="900.0" >
+		<animate
+			attributeName="x" 
+			from="800" 
+			to="0" 
+			begin="0s" 
+			dur="0.5830472103004293s" 
+			repeatCount="indefinite" 
+		/>
+	</use>
+
+	<use xlink:href="#sine" x="1600" y="900.0" >
+		<animate
+			attributeName="x" 
+			from="1600" 
+			to="800" 
+			begin="0s" 
+			dur="0.5830472103004293s" 
+			repeatCount="indefinite" 
+		/>
+	</use>
+
+	<use xlink:href="#sine" x="2400" y="900.0" >
+		<animate
+			attributeName="x" 
+			from="2400" 
+			to="1600" 
+			begin="0s" 
+			dur="0.5830472103004293s" 
+			repeatCount="indefinite" 
+		/>
+	</use>
+
+	<use xlink:href="#sine" x="3200" y="900.0" >
+		<animate
+			attributeName="x" 
+			from="3200" 
+			to="2400" 
+			begin="0s" 
+			dur="0.5830472103004293s" 
+			repeatCount="indefinite" 
+		/>
+	</use>
+
+	<use xlink:href="#sine" x="4000" y="900.0" >
+		<animate
+			attributeName="x" 
+			from="4000" 
+			to="3200" 
+			begin="0s" 
+			dur="0.5830472103004293s" 
+			repeatCount="indefinite" 
+		/>
+	</use>
+
+</g>
+
+<g id="screen" >
+	<rect x="20" y="20" 
+		height="2360" width="2360" 
+		rx="400" 
+		stroke="black" stroke-width="20" fill="none" 
+	/>
+
+	<g id="grid" style="
+		clip-path: url(#screenclip); 
+		stroke: rgba(0, 0, 0, 0.2); 
+		stroke-width: 20; 
+		fill: none" 
+	>
+		<path d="M 200,0 V 2400" />
+		<path d="M 400,0 V 2400" />
+		<path d="M 600,0 V 2400" />
+		<path d="M 800,0 V 2400" />
+		<path d="M 1000,0 V 2400" />
+		<path d="M 1200,0 V 2400" />
+		<path d="M 1400,0 V 2400" />
+		<path d="M 1600,0 V 2400" />
+		<path d="M 1800,0 V 2400" />
+		<path d="M 2000,0 V 2400" />
+		<path d="M 2200,0 V 2400" />
+		<path d="M 0,200 H 2400" />
+		<path d="M 0,400 H 2400" />
+		<path d="M 0,600 H 2400" />
+		<path d="M 0,800 H 2400" />
+		<path d="M 0,1000 H 2400" />
+		<path d="M 0,1200 H 2400" />
+		<path d="M 0,1400 H 2400" />
+		<path d="M 0,1600 H 2400" />
+		<path d="M 0,1800 H 2400" />
+		<path d="M 0,2000 H 2400" />
+		<path d="M 0,2200 H 2400" />
+	</g>
+</g>
+
+
+
+</svg>
