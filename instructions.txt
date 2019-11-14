@@ -1,0 +1,18 @@
+1. Install the Anaconda Python distribution.  
+ -- Go to https://www.anaconda.org/distribution/ and click on the "Download" button in the center of the page.  
+-- Up at the top is a list of platforms, "Windows | macOS | Linux".  Choose the appropriate one.  
+-- Select the "Download" button under Python 3.7 version.
+-- Download and install the program as prompted.  The default options will be sufficient.
+
+2. Download the prototype code.
+-- Go to https://github.com/Dzerzhinski/PB-Radio/.
+-- Halfway down the page, towards the right side of the screen, is a green button labeled "Clone or Download".  Select that button.
+-- It will open a small window.  Select "Download ZIP".
+-- Download the compressed file.
+-- Navigate to your downloads folder and Extract/unzip the file.
+
+3. Run the prototype code.
+-- From the start menu, select "Anaconda3 (64-bit)", then "Jupyter Notebook".  This is the program used to prototype the code and is very useful for small calculations and note-taking, as well as programming and analysis.
+-- Jupyter will open a browser tab (in Chrome or Edge) that shows your file system.  Navigate to the folder from step 2 (probably "Downloads", then "PB-Radio-Master".
+-- Select "dial-proto-new.ipynb".  It will open in a new tab.
+-- From the menu near the top of the window, select "Cell", then select "Run Cells" from the menu.  If you scroll down, you should see the prototype code running.
